@@ -16,6 +16,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
+    <!--dependencies required by the plugin-->
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -29,6 +30,7 @@
         </dependency>
     </dependencies>
 
+    <!-- plugin for building Java files from our json schema (shipping.address.json in resources) -->
     <build>
         <plugins>
             <plugin>
